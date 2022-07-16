@@ -12,7 +12,7 @@ const canDivideBy = (num) => {
 }
 ```
 
-## 01 camelCase
+## 01camelCase
 
 ```JavaScript
 const camelCase = (str) => {
