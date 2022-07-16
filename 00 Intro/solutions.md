@@ -164,3 +164,20 @@ const arrayRangeRemove = (arr) => {
     return arr
 }
 ```
+
+## 15 arrayShallowCopy
+
+```JavaScript
+const arrayShallowCopy = (arr) => {
+    return [...arr]
+}
+```
+
+## 16 arrayDeepCopy
+
+```JavaScript
+const arrayDeepCopy = (arr) => {
+    let deepCopy = JSON.parse(JSON.stringify(arr))
+    return deepCopy
+}
+```
