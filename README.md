@@ -48,7 +48,9 @@ For this section of the course we will run a single test at a time - this means 
 }
 ```
 
-Simply rename the `JT00canDivideBy.test.js` string to the challenge you are currently working on. When you are problem solving split your screen so that you can see both the coding file (they will always start with JS) and the testing file (these will always start with JT). Look at the test expects to see and write code to pass the tests one at a time. If you prefer, you can always modify the test file like so to run a single test at a time using `.only`:
+Simply rename the `JT00canDivideBy.test.js` string to the challenge you are currently working on. When you are problem solving split your screen so that you can see both the coding file (they will always start with JS) and the testing file (these will always start with JT)
+
+Look at what the test expects to see and write code to pass the tests one at a time. If you prefer, you can always modify the test file like so to run a single test at a time using `.only`:
 
 ```JavaScript
 describe('canDivideBy()', () => {
