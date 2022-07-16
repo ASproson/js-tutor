@@ -181,3 +181,29 @@ const arrayDeepCopy = (arr) => {
     return deepCopy
 }
 ```
+
+## 17 createObj
+
+```JavaScript
+const basicObject = {
+    name: 'Minecraft Steve',
+    age: 11
+}
+
+basicObject.name = 'Roan'
+basicObject.age = 24
+
+basicObject['weight'] = '145lbs'
+```
+
+## 18loopObj
+
+```JavaScript
+const loopObj = (obj) => {
+    let sumOfAges = 0;
+    for(let i = 0; i < obj.length; i++){
+        sumOfAges += obj[i].age
+    }
+    return sumOfAges
+}
+```
