@@ -8,7 +8,7 @@ Hello there! In this repo you'll be tested on a wide range of JavaScript concept
 4. Right click the js-tutor folder, and select Open in Integrated Terminal
 5. Type `cd 00` in the terminal and press tab, that will auto-complete and take you into the folder 00 Intro
 
-From there, simply follow the list down to completion. To test your work you need to enter the following command for each file: 
+From there, simply follow the list down to completion. To test your work you need to enter the following command for each file in the terminal: 
 
 `node 00returnString.js`
 </br>
