@@ -147,3 +147,20 @@ const mapArray = (arr) => {
     return arr
 }
 ```
+
+## 13 arrayRangeReturn
+
+```JavaScript
+const arrayRangeReturn = (arr) => {
+    return arr.slice(1, 4)
+}
+```
+
+## 14 arrayRangeRemove
+
+```JavaScript
+const arrayRangeRemove = (arr) => {
+    arr.splice(1, 3)
+    return arr
+}
+```
