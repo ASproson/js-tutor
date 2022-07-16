@@ -207,3 +207,19 @@ const loopObj = (obj) => {
     return sumOfAges
 }
 ```
+
+## 19 stringSplit
+
+```JavaScript
+const stringSplit = (str) => {
+    return str.split('')
+}
+```
+
+## 20 splitJoin
+
+```JavaScript
+const splitJoin = (str) => {
+    return str.join("")
+}
+```
