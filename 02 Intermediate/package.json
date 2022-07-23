@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "test": "jest JT00multiplyString.test.js"
+  },
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
