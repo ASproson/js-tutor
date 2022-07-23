@@ -35,3 +35,33 @@ const multiplyString = (firstStr, secondStr) => {
     return sum.toString();
 }
 ```
+
+## 01incrementString
+
+```JavaScript
+const incrementString = (str) => {
+    let split = str.split("");
+    let newStr = "";
+    let counter = 0;
+    let firstIdx;
+  
+    for (let i = 0; i < split.length; i++) {
+      if (isNaN(split[i])) {
+        counter++;
+      } else {
+        firstIdx = i;
+        break;
+      }
+  
+      if (counter === split.length) {
+        return (newStr += [...str].join("") + "1");
+      }
+    }
+  
+    let splicedVal = Number(split.splice(firstIdx).join(""));
+    splicedVal++;
+    newStr += split.join("");
+  
+    return newStr + splicedVal.toString();
+  };
+```
